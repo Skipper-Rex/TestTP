@@ -3,24 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visitenkarte laden</title>
+    <title>Digitale Visitenkarte - Toni Pezić</title>
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: #f5f5f7; color: #1d1d1f; }
         .card { text-align: center; background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); max-width: 90%; width: 350px; }
         .icon { font-size: 48px; margin-bottom: 20px; }
-        h1 { font-size: 24px; margin-bottom: 10px; font-weight: 600; }
-        p { font-size: 14px; color: #86868b; margin-bottom: 30px; line-height: 1.4; }
+        h1 { font-size: 24px; margin-bottom: 5px; font-weight: 600; }
+        .subtitle { font-size: 14px; color: #86868b; margin-top: 0; margin-bottom: 20px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; }
+        p { font-size: 14px; color: #434344; margin-bottom: 30px; line-height: 1.5; }
         .btn { display: block; padding: 16px 20px; font-size: 16px; color: white; background: #0071e3; border: none; border-radius: 12px; text-decoration: none; font-weight: 500; transition: background 0.2s; }
         .btn:active { background: #0077ed; }
+        .info-text { font-size: 11px; color: #a1a1a6; margin-top: 15px; }
     </style>
 </head>
 <body>
     <div class="card">
         <div class="icon">👤</div>
-        <h1>Digitale Visitenkarte</h1>
-        <p>Tippen Sie auf den Button, um die Kontaktdaten direkt in Ihrem Adressbuch zu sichern.</p>
+        <!-- Name des Kontakts -->
+        <h1>Toni Pezić</h1>
+        <div class="subtitle">Digitale Visitenkarte</div>
+        
+        <!-- Erklärung für den Nutzer -->
+        <p>Tippen Sie auf den Button, um die Kontaktdaten als <strong>vCard (.vcf)</strong> herunterzuladen und direkt in Ihrem Adressbuch zu speichern.</p>
+        
         <!-- HIER IHREN GITHUB-RAW-LINK ERSETZEN -->
-        <a href="https://github.com/Skipper-Rex/TestTP/raw/refs/heads/main/Toni%20Pezi%C4%87%20-%20Test.vcf" class="btn">Kontakt speichern</a>
+        <a href="https://github.com/Skipper-Rex/TestTP/raw/refs/heads/main/Toni%20Pezi%C4%87%20-%20Test.vcf" class="btn">Visitenkarte herunterladen</a>
+        
+        <div class="info-text">Unterstützt für iPhone & Android</div>
     </div>
 </body>
 </html>
+
